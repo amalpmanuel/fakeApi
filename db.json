@@ -1,0 +1,54 @@
+{
+    "crop": [
+        {
+            "id": 1,
+            "name": "Rice",
+            "description": "Rice 1",
+            "cropVarieties": [
+                {
+                    "id": 1,
+                    "name": "Basmati",
+                    "cropId": 1,
+                    "description": "Basmati"
+                },
+                {
+                    "id": 2,
+                    "name": "Matta",
+                    "cropId": 1,
+                    "description": "Matta"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Carrot",
+            "description": "Carrot",
+            "cropVarieties": [
+                {
+                    "id": 1,
+                    "name": "Carrot 1",
+                    "cropId": 2,
+                    "description": "Carrot 1"
+                },
+                {
+                    "id": 2,
+                    "name": "Carrot 2",
+                    "cropId": 2,
+                    "description": "Carrort 2"
+                }
+            ]
+        }
+    ],
+    "soil": [
+        {
+            "id": 1,
+            "type": "Soil Type 1",
+            "description": "Soil 1"
+        },
+        {
+            "id": 2,
+            "type": "Soil Type 2",
+            "description": "Soil 2"
+        }
+    ]
+}
